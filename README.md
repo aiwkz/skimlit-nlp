@@ -16,15 +16,10 @@ This repository includes:
 -   **Reproducibility**: All experiments are included in the notebook.
 -   **Pretrained embeddings**: Universal Sentence Encoder for semantic similarity.
 
-## Project Structure
+## Repository Structure
 
-skimlit-nlp/
-├── notebooks/ # Jupyter notebooks for experimentation
-│ └── skimlit-nlp.ipynb # Main notebook
-├── utils/ # Utility functions for preprocessing and visualization
-│ └── helper_functions.py # Functions used throughout the project
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+-   `skimlit-nlp.ipynb`: Main notebook containing code for data loading, model training, and evaluation.
+-   `helper_functions.py`: Utility functions for data preprocessing and visualization.
 
 ## Setup Instructions
 
