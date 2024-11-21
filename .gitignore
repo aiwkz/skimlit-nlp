@@ -1,0 +1,28 @@
+### `.gitignore`
+
+```plaintext
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Model files and large datasets
+/models/
+*.h5
+*.keras
+
+# TensorFlow files
+*.tfevents
